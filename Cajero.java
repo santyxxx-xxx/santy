@@ -23,7 +23,7 @@ public class Cajero extends JFrame{
                 String nombre=textField1.getText();
                 int edad= Integer.parseInt(textField1.getText());
 
-                if (edad<100 || edad>=18){
+                if (edad<100 && edad>=18){
                     JOptionPane.showMessageDialog(null,"Ingreso con exito");
                 } else {
                     JOptionPane.showMessageDialog(null, "solo clientes mayores de edad");
